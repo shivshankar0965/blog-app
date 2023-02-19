@@ -1,0 +1,49 @@
+.app__login{
+    max-width: 80%;
+   
+    margin: 1.2rem auto;
+}
+.app__login-container{
+    background: linear-gradient(90deg, rgba(74,74,168,1) 36%, rgba(84,185,205,1) 100%);
+    margin: auto;
+    max-width: 400px;
+
+    border-radius: 15px;
+}
+.app__login-header{
+    display: flex;
+    justify-content: center;
+    padding: 1.4rem;
+    border-bottom: 1.5px solid #080e19;
+}
+
+.app__login-form-control{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+}
+.app__input-control > input:focus{
+    border: none;
+}
+.app__input-control > input {
+    width: 100%;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    /* background-color: transparent; */
+}
+.app__form-control-footer > button{
+ 
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(19, 111, 151);
+    color: #fff;
+    margin-bottom: 10px;
+}

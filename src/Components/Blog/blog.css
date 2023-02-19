@@ -1,0 +1,125 @@
+
+.app__blogs-heading{
+    max-width: 95%;
+    margin: 1.2rem auto;
+}
+.app__blog-heading{
+    text-align: center;
+    margin: 1.2rem auto;
+}
+.app__blogs-container{
+    max-width: 95%;
+
+    margin: auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.app__blogs-item{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 1.2rem;
+    background: linear-gradient(90deg, rgba(58,58,201,1) 0%, rgba(205,240,246,1) 77%);
+    padding: 2.3rem;
+    border-radius: 12px;
+    border: 1.4px solid rgba(58,58,201,1);
+    transition: 0.3s ease-in;
+}
+.app__blogs-item:hover {
+    transform: scale(1.02);
+}
+.app__blogs-item > h3{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.app__blogs-item > p{
+    font-size: 18px;
+}
+.app__blogs-item-btns{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+}
+.blogs_btns{
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(19, 111, 151);
+    color: #fff;
+    margin-bottom: 10px;
+}
+.app__login{
+    max-width: 80%;
+   
+    margin: 1.2rem auto;
+}
+.app__blog-container{
+    background: linear-gradient(90deg, rgba(74,74,168,1) 36%, rgba(84,185,205,1) 100%);
+    margin: auto;
+    max-width: 400px;
+
+    border-radius: 15px;
+}
+.app__blog-header{
+    display: flex;
+    justify-content: center;
+    padding: 1.4rem;
+    border-bottom: 1.5px solid #080e19;
+}
+
+.app__blog-form-control{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    width: 90%;
+    margin: 1.2rem auto;
+ 
+}
+.app__input-control > input:focus{
+    border: none;
+}
+.app__input-control{
+
+    width: 100%;
+}
+.app__input-control > input {
+    width: 100%;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    /* background-color: transparent; */
+}
+.app__input-control > textarea{
+    width: 100%;
+    padding: 0.7rem 2rem;
+    height: 100px;
+    border: none;
+    padding: 0.1rem 1.2rem;
+    border-radius: 5px;
+}
+.app__form-control-footer{
+    width: 100%;
+
+}
+.app__blogs-delete{
+    background-color: #ed4242;
+}
+.app__form-control-footer > button{
+ 
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(19, 111, 151);
+    color: #fff;
+    margin-bottom: 10px;
+}

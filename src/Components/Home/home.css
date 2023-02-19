@@ -1,0 +1,17 @@
+.app__home-page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background: linear-gradient(120deg, rgba(58,95,201,1) 10%, rgba(205,240,246,1) 90%)
+}
+.app_home-hero-section{
+    padding: 2.3rem;
+    color: #ffffff;
+    margin: 1.2rem auto;
+    height: 400px;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 34px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}

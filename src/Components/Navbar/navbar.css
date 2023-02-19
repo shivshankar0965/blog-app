@@ -1,0 +1,61 @@
+.app__navbar{
+    padding: 3.4rem 4rem;
+    background: linear-gradient(90deg, rgba(7,5,54,1) 0%, rgba(4,4,99,1) 29%, rgba(84,185,205,1) 100%);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+ align-items: center;
+}
+.app__logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.app__links{
+    
+    display: flex;
+    gap: 1.2rem;
+    
+}
+.app__links > div{
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    background-color: rgb(10, 58, 111);
+    transition: 0.3s ease-in;
+}
+.app__links > div:hover{
+    background-color: rgb(5, 38, 74);
+}
+.app__links > div > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.app__logo{
+
+    margin-right: 3.4rem;
+
+}
+.app__nav-left{
+    display: flex;
+    gap: 1.2rem;
+  
+    align-items: center;
+}
+.app__nav-right{
+    display: flex;
+    gap: 1.2rem;
+    
+}
+.app__nav-profile > button{
+    margin-left: 12px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(19, 111, 151);
+    color: #fff;
+}
